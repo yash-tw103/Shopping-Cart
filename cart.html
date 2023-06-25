@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+   
+    <div class="itembox">
+        <div class="item">
+            <img src="https://m.media-amazon.com/images/I/61Gi0M7v3jL._UY550_.jpg">
+            <div class="itemInfo">
+                <h1>Mens solid regular fit tshirt</h1>
+                <p>$<span>42.50</span></p>
+                
+                <a href="#" class="addtocart">Add To Cart</a>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://m.media-amazon.com/images/I/61DLZiEPXoL._UY445_.jpg">
+            <div class="itemInfo">
+                <h1>Mens solid round neck</h1>
+                <p>$<span>15</span></p>
+               
+                <a href="#" class="addtocart">Add To Cart</a>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://assets.ajio.com/medias/sys_master/root/20221109/SI6r/636b8e9af997ddfdbd663ee4/-473Wx593H-461119105-blue-MODEL.jpg">
+            <div class="itemInfo">
+                <h1>Mens casual mast Shirt</h1>
+                <p>$<span>57.8</span></p>
+                
+                <a href="#" class="addtocart">Add To Cart</a>
+            </div>
+        </div>
+    </div>
+
+    <main id="show-content">
+        
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <Center><h1 style="color: aliceblue;">Showing Favourites Here</h1></Center>
+            <center><table id="table" border="1" style="text-align: center;color: aliceblue;"></table></center>
+          </div>
+          <center><button style="font-size:30px;cursor:pointer" onclick="openNav()">Favourites</button> </center>
+          
+    </main>
+
+    <script src="cart.js"></script>
+</body>
+</html>
